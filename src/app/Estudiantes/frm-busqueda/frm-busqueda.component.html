@@ -1,0 +1,29 @@
+<form [formGroup]="getFrmFiltro()" (ngSubmit)="SearchStudent()" autocomplete="off"  class="filtroEstudiantes" >          
+        <div class="botonera">
+            <button type="submit" class="btn btn-secondary">Buscar</button>
+            <button class="btn btn-warning" >Limpiar</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#agregar" type="button">Agregar</button>             
+        </div>
+        <app-frm-insertar></app-frm-insertar>
+        <div class="titulaBusqueda">
+            <h4>Busqueda de Estudiante</h4>
+        </div> 
+            <div class="group-inputs">
+                <label for="apellidosPaterno">Apellidos Paterno</label>
+                <input type="text"  formControlName="ape_paterno" id="apellidosPaterno" >
+            </div>
+            <div class="group-inputs">
+                <label for="apellidosMaterno">Apellidos Materno</label>
+                <input type="text"  formControlName="ape_materno" id="apellidosMaterno" >
+            </div>
+            <div class="group-inputs">
+                <label for="nombres">Nombres</label>
+                <input type="text"  formControlName="nombres" id="nombres" >
+            </div>
+            <div class="group-inputs">
+                <label for="dni">Dni</label>
+                <input type="text"  formControlName="doc_identidad" id="dni">
+            </div>            
+</form>       
+
+

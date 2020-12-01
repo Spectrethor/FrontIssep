@@ -1,0 +1,14 @@
+<div class="paginador">
+        <img src="assets/img/flecha-izquierda.png" (click)="GoBack()" class="item img" alt="img_izq">
+        <span>Pagina {{currentPage}} de {{numberPages}}</span> 
+        
+        <img src="assets/img/flecha-derecha.png" (click)="GoAhead()" class="item img" alt="img_dere">
+        <select (change)="ChangeSize()" name="size" [formControl]="optionSize" class="item option">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+        <span> Total de Registros: {{Total}} </span> 
+</div>
+
+

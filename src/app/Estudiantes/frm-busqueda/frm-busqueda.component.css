@@ -1,0 +1,30 @@
+.titulaBusqueda h4 {
+  padding: 10px;
+  background-color: #228e78;
+}
+
+.filtroEstudiantes input[type="text"] {
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.group-inputs {
+  display: inline-block;
+  margin: 10px;
+}
+
+.group-inputs label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.group-inputs input[type="text"] {
+  width: 200px;
+  max-width: 220px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.botonera button {
+  margin-left: 10px;
+}

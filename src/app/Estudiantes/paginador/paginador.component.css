@@ -1,0 +1,20 @@
+.paginador {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3fa689;
+}
+
+.item {
+  display: inline-block;
+  padding: 3px;
+}
+
+.item.img:hover {
+  cursor: pointer;
+}
+
+span {
+  margin: 0px 5px;
+}
